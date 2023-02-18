@@ -27,7 +27,7 @@ async def start(event):
   await event.reply("**🌀UserTaggerProBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/UserTaggerProBot?startgroup=a')],
+		      [ Düğme . url ( 'Beni Gruba Ekle ➕' , 'https://t.me/UserTaggerProBot?startgroup=a' )],
                       [Button.url('Support🛠', 'https://t.me/orkinoxchat')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/LuazBotlar')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/LuazHck')],
@@ -42,7 +42,7 @@ async def help(event):
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/UserTaggerProBot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/orkinoxchat')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/LuazBotlar')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/LuazHck')],
+		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/LuazHck' )],,
                     ),
                     link_preview=False
                    )
